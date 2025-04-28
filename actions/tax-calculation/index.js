@@ -43,7 +43,7 @@ async function main(params) {
       const body = JSON.parse(atob(params.__ow_body));
       payload = body;
     }
-    logger.info('Receiveed request : ', payload);
+    logger.info('Received request : ', payload);
 
     const operations = [];
 
